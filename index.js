@@ -32,5 +32,5 @@ server.get('/earthquakes', async (req, res) => {
 });
 
 server.listen(5000, () => {
-  console.log('http://localhost:5000 is listening');
+  console.log('http://localhost:5000 is listening... :)');
 });
