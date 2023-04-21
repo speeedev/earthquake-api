@@ -1,3 +1,3 @@
 # earthquake-api
 
-Loading...
+An API where you can pull the latest earthquakes in Turkey.
