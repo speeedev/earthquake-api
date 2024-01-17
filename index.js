@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
 const express = require('express');
+const PORT = process.env.PORT || 5000;
 
 const server = express();
 //
@@ -31,6 +32,6 @@ server.get('/earthquakes', async (req, res) => {
   }
 });
 
-server.listen(5000, () => {
+server.listen(PORT, () => {
   console.log('http://localhost:5000 is listening... :)');
 });
