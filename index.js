@@ -3,7 +3,7 @@ const axios = require('axios');
 const express = require('express');
 
 const server = express();
-
+//
 server.get('/earthquakes', async (req, res) => {
   try {
     const response = await axios.get('https://deprem.afad.gov.tr/last-earthquakes.html');
